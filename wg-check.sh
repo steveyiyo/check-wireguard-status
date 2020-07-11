@@ -1,5 +1,5 @@
 #!/bin/bash
-ping -c1 192.168.201.1 > /dev/null
+ping -c1 [edit it to your peer ip] > /dev/null
 if [ $? -eq 0 ]
   then 
     exit 0
