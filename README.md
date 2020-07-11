@@ -2,7 +2,7 @@
 
 # Check your wireguard status And auto restart
 
-## How is work?
+## How does this work?
 
 It will check peer status with icmp ping And close wg and restart it.
 
