@@ -5,6 +5,7 @@
 ## 如何配置?
 
 請將 [wg-status.sh](https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh) 下載到你的Linux系統，將他保存好(我都保存在 /opt 目錄下)
+
 修改腳本中的[edit it to your peer ip]，將其改成對等端IP
 ```
 wget --no-check-certificate -O /opt/wg-check.sh https://git.io/JJYlN
