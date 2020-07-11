@@ -4,7 +4,7 @@
 
 請將 [wg-status.sh](https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh) 下載到你的Linux系統，將他保存好(我都保存在 /opt 目錄下)
 ```
-wget --no-check-certificate -O /opt/wg-check.sh https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh
+wget --no-check-certificate -O /opt/wg-check.sh https://git.io/JJYlN
 chmod 755 /opt/wg-check.sh
 ```
 
@@ -14,7 +14,7 @@ crontab -e
 * * * * * bash /opt/wg-status.sh
 ```
 
-PS. 你可以在這個網站上產生crontab時間 https://crontab.guru/
+PS. 你可以在[這個網站上](https://crontab.guru/)產生crontab時間
 
 ## 這是如何運作的?
 
