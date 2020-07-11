@@ -1,7 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
-</style>
-
 [README](README.md) | [中文文檔](README_zh.md)
 
 # 自動檢查wireguard狀態並重啟
