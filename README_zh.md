@@ -3,12 +3,14 @@
 ## 如何配置?
 
 請將 [wg-status.sh](https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh) 下載到你的Linux系統，將他保存好(我都保存在 /opt 目錄下)
-```wget --no-check-certificate -O /opt/wg-check.sh https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh
+```
+wget --no-check-certificate -O /opt/wg-check.sh https://raw.githubusercontent.com/steveyiyo/check-wireguard-status/master/wg-check.sh
 chmod 755 /opt/wg-check.sh
 ```
 
 配置crontab，每分鐘執行一次
-```crontab -e
+```
+crontab -e
 * * * * * bash /opt/wg-status.sh
 ```
 
