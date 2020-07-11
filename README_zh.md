@@ -1,6 +1,6 @@
 [README](README.md) | [中文文檔](README_zh.md)
 
-# 自動檢查wireguard狀態並重啟
+# 自動檢查WireGuard狀態並重啟
 
 ## 如何配置?
 
