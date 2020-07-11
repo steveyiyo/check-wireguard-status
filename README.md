@@ -1,12 +1,12 @@
 [README](README.md) | [中文文檔](README_zh.md)
 
-#Check your wireguard status And auto restart
+# Check your wireguard status And auto restart
 
-##How is work?
+## How is work?
 
 It will check peer status with icmp ping And close wg and restart it.
 
-##FAQ
+## FAQ
 
 Why i still can't ping?
 1.Please allow icmp ping (41 port) in your peer server firewall!
