@@ -15,7 +15,7 @@ chmod 755 /opt/wg-check.sh
 配置crontab，每分鐘執行一次
 ```
 crontab -e
-* * * * * bash /opt/wg-status.sh
+* * * * * bash /opt/wg-check.sh
 ```
 
 PS. 你可以在[這個網站上](https://crontab.guru/)產生crontab時間
