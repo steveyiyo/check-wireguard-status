@@ -15,7 +15,7 @@ chmod 755 /opt/wg-check.sh
 set crontab, every minute check it
 ```
 crontab -e
-* * * * * bash /opt/wg-status.sh
+* * * * * bash /opt/wg-check.sh
 ```
 
 PS. You can get crontab config with [this website](https://crontab.guru/)
